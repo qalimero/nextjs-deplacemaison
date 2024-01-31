@@ -1,0 +1,40 @@
+{
+  "id": "menu",
+  "label": "menu",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "badge": {
+        "type": "Text",
+        "config": {
+          "label": "badge",
+          "placeholder": ""
+        }
+      },
+      "cart": {
+        "type": "Link",
+        "config": {
+          "label": "cart",
+          "placeholder": "",
+          "select": null
+        }
+      }
+    }
+  }
+}

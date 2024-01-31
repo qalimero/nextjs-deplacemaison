@@ -1,0 +1,8 @@
+@import "../base/globals.module";
+*{
+  font-family: $font-base, Satoshi;
+}
+
+body{
+  background-color: $primary-light;
+}

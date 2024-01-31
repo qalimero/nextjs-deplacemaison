@@ -1,0 +1,16 @@
+@use 'font.module';
+
+$primary-dark :#141414;
+$primary-light : #FcF9ee;
+$primary-yellow : #ddc92a;
+$primary-brown : #e7d6c4;
+
+/* FONTS */
+
+$font-base: "ABC Favorit Mono Unlicensed Trial";
+
+
+//Export sass variables
+:export {
+  primaryDark: $primary-dark;
+}

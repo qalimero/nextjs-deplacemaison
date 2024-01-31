@@ -1,0 +1,57 @@
+{
+  "id": "preview_slice",
+  "type": "SharedSlice",
+  "name": "PreviewSlice",
+  "description": "PreviewSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "preview_img": {
+          "type": "Image",
+          "config": {
+            "label": "preview img",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "preview_order": {
+          "type": "Text",
+          "config": {
+            "label": "preview order",
+            "placeholder": ""
+          }
+        },
+        "preview_label": {
+          "type": "Text",
+          "config": {
+            "label": "preview label",
+            "placeholder": ""
+          }
+        },
+        "preview_explore_link": {
+          "type": "Link",
+          "config": {
+            "label": "preview explore link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "preview_explore_link_icon": {
+          "type": "Image",
+          "config": {
+            "label": "preview explore link icon",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

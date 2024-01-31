@@ -1,0 +1,13 @@
+/* =====================
+BASE STYLES
+===================== */
+
+@use 'base/globals.module';
+@use 'base/breakpoints.module';
+@use 'base/sizes.module';
+
+@use "base/reset.module";
+
+@use "slices/header.module";
+
+@use "pages/home.module";
