@@ -14,12 +14,18 @@ const Header = ({ slice }) => {
       data-slice-variation={slice.variation}
     >
       <section className="header__wrapper">
-        <div className="header__logo-items">
-          <PrismicNextImage className="logo" field={slice.primary.logo}/>
-          <PrismicNextImage className="logo logo--hidden"  field={slice.primary.logo}/>
+        <div className="header__wrap__logo-items">
+          <div className="header__inner__logo-items">
+            <PrismicNextImage className="logo" field={slice.primary.logo}/>
+            <PrismicNextImage className="logo logo--hidden" field={slice.primary.logo}/>
+          </div>
         </div>
-        <span className="header__badge">{slice.primary.ink_mode}</span>
-        <span className="header__cart">{slice.primary.cart}</span>
+        <div className="header__badge">
+          <span>{slice.primary.ink_mode}</span>
+        </div>
+        <div className="header__cart">
+          <span className="header__cart">{slice.primary.cart}</span>
+        </div>
       </section>
     </header>
   );

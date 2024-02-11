@@ -1,0 +1,114 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"item_img",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e",
+								"width": 6000,
+								"height": 4000
+							},
+							"url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e",
+							"width": 6000,
+							"height": 4000,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"item_collection",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "went",
+							"type": "Text"
+						}
+					],
+					[
+						"item_title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Veniam tempor duis cupidatat non velit commodo reprehenderit et aliqua in ullamco. Amet Lorem aliquip dolore et proident Lorem. Deserunt do cillum sint ad mollit velit labore aliquip amet aute aute sunt."
+									}
+								}
+							]
+						}
+					],
+					[
+						"item_price",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Esse nostrud esse occaecat sint aliqua anim enim pariatur."
+									}
+								}
+							]
+						}
+					],
+					[
+						"item_price_discount",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Sit anim et non in ea est reprehenderit ullamco sint enim proident reprehenderit fugiat officia. Do magna et velit. Fugiat voluptate dolore fugiat do magna anim proident."
+									}
+								}
+							]
+						}
+					],
+					[
+						"item_label",
+						{
+							"__TYPE__": "ImageContent",
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+								"width": 3456,
+								"height": 4320
+							},
+							"url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+							"width": 3456,
+							"height": 4320,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"thumbnails": {}
+						}
+					]
+				]
+			}
+		]
+	}
+]

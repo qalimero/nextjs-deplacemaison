@@ -11,10 +11,22 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
+            "item_slice": {
+              "type": "SharedSlice"
+            },
+            "button_slice": {
+              "type": "SharedSlice"
+            },
+            "marquee_slice": {
+              "type": "SharedSlice"
+            },
+            "preview_slice": {
+              "type": "SharedSlice"
+            },
             "header": {
               "type": "SharedSlice"
             },
-            "header_slice": {
+            "title_slice": {
               "type": "SharedSlice"
             }
           }

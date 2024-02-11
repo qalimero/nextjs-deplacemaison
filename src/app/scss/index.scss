@@ -5,9 +5,11 @@ BASE STYLES
 @use 'base/globals.module';
 @use 'base/breakpoints.module';
 @use 'base/sizes.module';
+@use 'base/layout.module';
 
 @use "base/reset.module";
 
 @use "slices/header.module";
+@use "slices/title.module";
 
 @use "pages/home.module";

@@ -24,6 +24,28 @@
 						}
 					}
 				]
+			},
+			"subtitle_line_two": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Mollit enim anim nulla proident irure ad et."
+						}
+					}
+				]
+			},
+			"title_line_two": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Laborum laboris aliquip eu nulla ea sit. Quis commodo occaecat irure quis irure nostrud officia laborum esse anim. Adipisicing veniam nulla cillum est pariatur."
+						}
+					}
+				]
 			}
 		},
 		"items": []

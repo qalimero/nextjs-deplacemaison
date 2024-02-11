@@ -4,6 +4,10 @@ import dynamic from "next/dynamic";
 
 export const components = {
   header: dynamic(() => import("./Header")),
-  header_slice: dynamic(() => import("./TitleSlice")),
+  button_slice: dynamic(() => import("./ButtonSlice")),
+  title_slice: dynamic(() => import("./TitleSlice")),
+  item_slice: dynamic(() => import("./ItemSlice")),
+  marquee_slice: dynamic(() => import("./TextSlice")),
   preview_slice: dynamic(() => import("./PreviewSlice")),
+  side_bar_slice: dynamic(() => import("./SideNavSlice")),
 };

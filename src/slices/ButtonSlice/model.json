@@ -1,0 +1,42 @@
+{
+  "id": "button_slice",
+  "type": "SharedSlice",
+  "name": "ButtonSlice",
+  "description": "ButtonSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "button_text": {
+          "type": "Text",
+          "config": {
+            "label": "button text",
+            "placeholder": ""
+          }
+        },
+        "button_icon": {
+          "type": "Image",
+          "config": {
+            "label": "button icon",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "button_icon_bg": {
+          "type": "Image",
+          "config": {
+            "label": "button icon bg",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

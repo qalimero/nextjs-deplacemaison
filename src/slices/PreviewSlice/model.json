@@ -11,7 +11,8 @@
       "version": "initial",
       "description": "Default",
       "imageUrl": "",
-      "primary": {
+      "primary": {},
+      "items": {
         "preview_img": {
           "type": "Image",
           "config": {
@@ -33,25 +34,8 @@
             "label": "preview label",
             "placeholder": ""
           }
-        },
-        "preview_explore_link": {
-          "type": "Link",
-          "config": {
-            "label": "preview explore link",
-            "placeholder": "",
-            "select": null
-          }
-        },
-        "preview_explore_link_icon": {
-          "type": "Image",
-          "config": {
-            "label": "preview explore link icon",
-            "constraint": {},
-            "thumbnails": []
-          }
         }
-      },
-      "items": {}
+      }
     }
   ]
 }

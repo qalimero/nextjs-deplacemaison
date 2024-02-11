@@ -1,8 +1,8 @@
 {
-  "id": "title_slice",
+  "id": "item_slice",
   "type": "SharedSlice",
-  "name": "TitleSlice",
-  "description": "TitleSlice",
+  "name": "ItemSlice",
+  "description": "ItemSlice",
   "variations": [
     {
       "id": "default",
@@ -11,45 +11,59 @@
       "version": "initial",
       "description": "Default",
       "imageUrl": "",
-      "primary": {
-        "title": {
+      "primary": {},
+      "items": {
+        "item_img": {
+          "type": "Image",
+          "config": {
+            "label": "item img",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "item_label": {
+          "type": "Image",
+          "config": {
+            "label": "item label",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "item_collection": {
+          "type": "Text",
+          "config": {
+            "label": "item collection",
+            "placeholder": ""
+          }
+        },
+        "item_title": {
           "type": "StructuredText",
           "config": {
-            "label": "title",
+            "label": "item title",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "title_line_two": {
+        "item_price": {
           "type": "StructuredText",
           "config": {
-            "label": "title line two",
+            "label": "item price",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "subtitle": {
+        "item_price_discount": {
           "type": "StructuredText",
           "config": {
-            "label": "subtitle",
-            "placeholder": "",
-            "allowTargetBlank": true,
-            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-          }
-        },
-        "subtitle_line_two": {
-          "type": "StructuredText",
-          "config": {
-            "label": "subtitle line two",
+            "label": "item price discount",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         }
-      },
-      "items": {}
+      }
     }
   ]
 }

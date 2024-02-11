@@ -1,0 +1,27 @@
+{
+  "id": "sider_bar_slice",
+  "type": "SharedSlice",
+  "name": "SideNavSlice",
+  "description": "SideNavSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "sidenav_link": {
+          "type": "Link",
+          "config": {
+            "label": "sidenav link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

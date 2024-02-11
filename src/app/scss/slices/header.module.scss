@@ -1,23 +1,48 @@
 .header {
+  display: flex;
   position: fixed;
   width: 100%;
   padding: 2vw;
   &__wrapper {
     display: flex;
     justify-content: space-between;
+    width:inherit;
   }
-  &__logo-items {
-    display: flex;
+  &__wrap__logo-items {
+    position: relative;
     width: 3vw;
     overflow: hidden;
     .logo {
       width: 3.1vw;
       &--hidden{
-        transform: rotate(5deg);
+        transform: translateY(5%);
+      }
+    }
+  }
+  &__inner__logo-items {
+    display: flex;
+    flex-direction: row;
+    width: 6vw;
+    .logo {
+      &:hover {
+        animation-duration: 1s;
+        animation-name: slidein;
+        animation-fill-mode: forwards;
       }
     }
   }
   &__cart {
     text-transform: uppercase;
   }
+}
+
+@keyframes slidein {
+  from
+  {
+    transform: translate(0);
+  }
+  to
+  {
+    transform: translate(-58%);
+}
 }
