@@ -1,0 +1,7 @@
+@use "../base/sizes.module";
+@use "../base/layout.module";
+
+.preview {
+  @extend .left-padding;
+
+}

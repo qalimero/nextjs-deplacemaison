@@ -1,14 +1,14 @@
 @use "../base/sizes.module";
 @use "../base/layout.module";
-.title {
+.titles {
   @extend .left-padding;
+  display: flex;
+  justify-items: flex-end;
+  align-items: self-end;
+  flex-wrap:wrap;
   padding-top: 8.1vw;
   transition: .3s;
   &__wrapper {
-    display: flex;
-    justify-items: flex-end;
-    align-items: self-end;
-    .title-1__container {
       .title-1  {
         text-align: right;
         font-size: 14vw;
@@ -20,7 +20,6 @@
           justify-self: right;
         }
       }
-    }
     h2{
       font-size: 4vw;
       font-weight: 500;
@@ -28,8 +27,8 @@
       letter-spacing: - sizes.$size_8;
       text-transform: uppercase;
     }
-    .title-2__container {
-
-    }
+  }
+  &__content{
+    display: flex;
   }
 }
