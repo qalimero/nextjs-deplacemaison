@@ -8,7 +8,6 @@ const queryHomepage = () => {
 }
 
 export async function generateMetadata() {
-  const page = await queryHomepage()
 
   return {
     title: 'EIE - Engineering Intelligent Environments',

@@ -15,10 +15,12 @@ const Header = ({ slice }) => {
     >
       <section className="header__wrapper">
         <div className="header__wrap__logo-items">
+          {/*le H1 englobe le logo*/}
           <div className="header__inner__logo-items">
             <PrismicNextImage className="logo" field={slice.primary.logo}/>
             <PrismicNextImage className="logo logo--hidden" field={slice.primary.logo}/>
           </div>
+          {/*le H1 englobe le logo*/}
         </div>
         <div className="header__badge">
           <span>{slice.primary.ink_mode}</span>

@@ -12,7 +12,7 @@ const TitleSlice = ({slice}) => {
             data-slice-type={slice.slice_type}
             data-slice-variation={slice.variation}
         >
-
+            {/*tout le title__wraprer devient un H2*/}
             <div className="titles__wrapper">
                 <PrismicRichText
                     field={slice.primary.title}
@@ -37,6 +37,7 @@ const TitleSlice = ({slice}) => {
                     </div>
                 </div>
             </div>
+            {/*tout le title__wraprer devient un H2*/}
         </section>
     );
 };

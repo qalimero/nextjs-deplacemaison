@@ -13,7 +13,7 @@ const PreviewSlice = ({ slice }) => {
       data-slice-variation={slice.variation}
     >
       <div className="preview__wrapper">
-        <PrismicNextImage field={slice.items[i].preview_img}/>
+        <PrismicNextImage field={slice.items.preview_img}/>
 
       </div>
     </section>
