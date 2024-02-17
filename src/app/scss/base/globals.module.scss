@@ -1,5 +1,9 @@
 @use 'font.module';
 
+html {
+  font-size: calc(100vw / 1920 * 10);
+}
+
 $primary-dark :#141414;
 $primary-light : #FcF9ee;
 $primary-yellow : #ddc92a;

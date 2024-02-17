@@ -13,8 +13,13 @@ const PreviewSlice = ({ slice }) => {
       data-slice-variation={slice.variation}
     >
       <div className="preview__wrapper">
-        <PrismicNextImage field={slice.items.preview_img}/>
-
+        { slice.items.map((item, i) =>
+          <div key={i} className="preview__wrapper__items">
+            <PrismicNextImage field={item.preview_img}/>
+            <p className="preview__item__text">{item.preview_order}</p>
+            <p className="preview__item__text">{item.preview_label}</p>
+          </div>
+          )}
       </div>
     </section>
   );

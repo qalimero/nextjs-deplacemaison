@@ -3,5 +3,23 @@
 
 .preview {
   @extend .left-padding;
+  padding-top: 2vw;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    &__items {
+      width: 32vw;
 
+      img {
+        border: 3px solid #000;
+        max-width: 32vw;
+        height: 100%;
+      }
+    }
+  }
+  &__item__text {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+  }
 }

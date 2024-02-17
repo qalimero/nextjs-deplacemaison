@@ -1,0 +1,40 @@
+@use "../base/sizes.module";
+@use "../base/layout.module";
+
+.button {
+  @extend .left-padding;
+  padding-top: 5vw;
+  &__wrapper {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+  }
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    font-size: sizes.$size_46;
+    letter-spacing: - calc(sizes.$size_10 / 10);
+    font-weight: 400;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    &__img {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: sizes.$size_35;
+      width: 100%;
+      &__icon {
+        position: absolute;
+        width: sizes.$size_48;
+        height: sizes.$size_48;
+      }
+      &__bg{
+          width: sizes.$size_96;
+          height: sizes.$size_96;
+      }
+
+    }
+  }
+}

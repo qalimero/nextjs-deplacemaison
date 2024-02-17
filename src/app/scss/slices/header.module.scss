@@ -1,3 +1,4 @@
+@use "../base/sizes.module";
 .header {
   display: flex;
   position: fixed;
@@ -7,6 +8,10 @@
     display: flex;
     justify-content: space-between;
     width:inherit;
+
+    span {
+      font-size: sizes.$size_16;
+    }
   }
   &__wrap__logo-items {
     position: relative;

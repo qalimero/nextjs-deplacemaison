@@ -9,8 +9,10 @@ BASE STYLES
 
 @use "base/reset.module";
 
+@use "slices/button.module";
 @use "slices/header.module";
-@use "slices/title.module";
 @use "slices/preview.module";
+@use "slices/title.module";
+
 
 @use "pages/home.module";
