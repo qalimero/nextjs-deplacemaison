@@ -15,4 +15,4 @@ const SideBarSlice = ({ slice }) => {
   );
 };
 
-export default SiderBarSlice;
+export default SideBarSlice;

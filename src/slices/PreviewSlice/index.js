@@ -5,6 +5,7 @@ import {PrismicNextImage} from "@prismicio/next";
  * @typedef {import("@prismicio/react").SliceComponentProps<PreviewSliceSlice>} PreviewSliceProps
  * @param {PreviewSliceProps}
  */
+
 const PreviewSlice = ({ slice }) => {
   return (
     <section

@@ -30,6 +30,7 @@ export const repositoryName =
 const routes = [
   {
     type: 'home',
+    uid: 'home',
     path: "/",
   }
 ]
