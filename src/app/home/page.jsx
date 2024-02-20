@@ -19,7 +19,10 @@ export async function generateMetadata() {
 
 export default async function Home() {
   const page = await queryHomepage()
-  console.log(page.data.slices[4])
+/*
+  const filteredSlices = page.data.slices.filter(slice => slice.slice_type === 'button_slice');
+*/
+
   return (
       <main className="home">
         <SliceZone slices={page.data.slices} components={components}/>

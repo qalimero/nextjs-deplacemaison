@@ -1,5 +1,5 @@
 {
-  "id": "sider_bar_slice",
+  "id": "side_bar_slice",
   "type": "SharedSlice",
   "name": "SideNavSlice",
   "description": "SideNavSlice",

@@ -1,3 +1,22 @@
+@use "../base/sizes.module";
+
 .text{
+  &__wrapper {
+    .list__container {
+      .list__edito__items {
+        display: inline-flex;
+        align-items: center;
+        li {
+          font-size: sizes.$size_48;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+  }
+
+  &:nth-of-type(1){
+
+  }
 
 }
