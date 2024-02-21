@@ -1,5 +1,5 @@
 import {PrismicRichText} from "@prismicio/react";
-import React from "react"; // Assurez-vous d'importer React
+import React from "react";
 
 
 /**
@@ -8,6 +8,7 @@ import React from "react"; // Assurez-vous d'importer React
  * @param {MarqueeSliceProps}
  */
 const MarqueeSlice = ({ slice }) => {
+
   return (
     <section
       className="marquee"
