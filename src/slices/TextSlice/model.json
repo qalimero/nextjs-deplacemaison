@@ -1,8 +1,8 @@
 {
-  "id": "marquee_slice",
+  "id": "text_slice",
   "type": "SharedSlice",
-  "name": "MarqueeSlice",
-  "description": "MarqueeSlice",
+  "name": "TextSlice",
+  "description": "TextSlice",
   "variations": [
     {
       "id": "default",
@@ -11,18 +11,18 @@
       "version": "initial",
       "description": "Default",
       "imageUrl": "",
-      "primary": {
-        "marque_list_item": {
+      "primary": {},
+      "items": {
+        "text_item": {
           "type": "StructuredText",
           "config": {
-            "label": "marque_list_item",
+            "label": "text_item",
             "placeholder": "",
             "allowTargetBlank": true,
-            "single": "list-item"
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         }
-      },
-      "items": {}
+      }
     }
   ]
 }

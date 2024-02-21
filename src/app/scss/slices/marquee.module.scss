@@ -1,0 +1,45 @@
+@use "../base/sizes.module";
+@use "../base/globals.module";
+
+
+.marquee {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100vw;
+  height: sizes.$size_96;
+  margin-top: sizes.$size_192;
+  margin-bottom: sizes.$size_134;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  background-color: globals.$primary-yellow ;
+  &__wrapper {
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 15s linear infinite;
+    .marquee__list {
+      display: flex;
+
+      &__item {
+        font-size: sizes.$size_48;
+        font-weight: 300;
+        margin: 0 1.5vw;
+        width: 20vw;
+        text-transform: uppercase;
+        list-style-type: square;
+        letter-spacing: -.13rem;
+      }
+    }
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+
+  }
+}

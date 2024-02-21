@@ -1,22 +1,20 @@
 @use "../base/sizes.module";
+@use "../base/layout.module";
+@use "../base/globals.module";
 
-.text{
+.text {
+  @extend .left-padding;
+
   &__wrapper {
-    .list__container {
-      .list__edito__items {
-        display: inline-flex;
-        align-items: center;
-        li {
-          font-size: sizes.$size_48;
-          text-transform: uppercase;
-        }
-      }
-    }
 
   }
+}
 
-  &:nth-of-type(1){
-
-  }
-
+.text__paragraph {
+  font-size: sizes.$size_29;
+  font-weight: 300;
+  letter-spacing: -.15rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: globals.$primary-dark;
 }

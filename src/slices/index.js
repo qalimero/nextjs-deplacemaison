@@ -9,5 +9,6 @@ export const components = {
   marquee_slice: dynamic(() => import("./MarqueeSlice")),
   preview_slice: dynamic(() => import("./PreviewSlice")),
   side_bar_slice: dynamic(() => import("./SideNavSlice")),
+  text_slice: dynamic(() => import("./TextSlice")),
   title_slice: dynamic(() => import("./TitleSlice")),
 };
