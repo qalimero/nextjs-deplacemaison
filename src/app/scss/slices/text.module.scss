@@ -6,7 +6,13 @@
   @extend .left-padding;
 
   &__wrapper {
-
+    display: flex;
+    .text__paragraph{
+      display: inline-block;
+    }
+    .title-3 {
+      width: 60vw;
+    }
   }
 }
 
