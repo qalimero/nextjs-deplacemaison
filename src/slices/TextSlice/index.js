@@ -7,14 +7,7 @@ import React from "react";
  * @param {TextSliceProps}
  */
 const TextSlice = ({slice}) => {
-    let contentSlice = slice.items;
-    /*  for (let i = 0; i < contentSlice.length; i++) {
-        let contentText = contentSlice[i];
-        if (contentText.text_item[0].type === 'heading3') {
-          console.log(contentText)
-        }
-      }
-*/
+
     return (
         <section
             className="text"
@@ -22,20 +15,24 @@ const TextSlice = ({slice}) => {
             data-slice-variation={slice.variation}
         >
             <div className="text__wrapper">
-                <PrismicRichText
-                    field={slice.primary.text_item}
-                    components={{
-                        paragraph: ({children}) => (
-                            <p className="text__paragraph">{children}</p>
-                        ),
-                        heading3: ({children}) => (
-                                <div className="titles__wrapper">
-                                    <React.Fragment> {children}</React.Fragment>
-                                </div>
-                            ),
-                    }}
-                >
-                </PrismicRichText>
+                {slice.items.map((item, i) =>
+                        <PrismicRichText
+                            field={item.text_item}
+                            components={{
+                                paragraph: ({children}) => (
+                                    <div className="text__paragraph__items">
+                                        <p className="text__paragraph">{children}</p>
+                                    </div>
+                                ),
+                                heading3: ({children}) => (
+                                    <div className="titles__wrapper">
+                                        <h3 className="title-3"> {children}</h3>
+                                    </div>
+                                ),
+                            }}
+                        >
+                        </PrismicRichText>
+                )},
             </div>
         </section>
     );

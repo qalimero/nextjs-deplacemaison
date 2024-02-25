@@ -4,21 +4,32 @@
 
 .text {
   @extend .left-padding;
+  margin-top: sizes.$size_192;
+  margin-bottom: sizes.$size_134;
 
   &__wrapper {
-    display: flex;
-    .text__paragraph{
-      display: inline-block;
+    .text__paragraph__items {
+      line-height: sizes.$size_82;
     }
-    .title-3 {
-      width: 60vw;
+    .text__paragraph{
+      float: left;
+    }
+    .titles__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      .title-3 {
+        width: 60vw;
+      }
     }
   }
+}
+.text__paragraph__items + .titles__wrapper {
+  text-align: right;
 }
 
 .text__paragraph {
   font-size: sizes.$size_29;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: -.15rem;
   text-transform: uppercase;
   text-decoration: underline;
