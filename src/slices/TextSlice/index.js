@@ -30,7 +30,7 @@ const TextSlice = ({slice}) => {
                         ),
                         heading3: ({children}) => (
                                 <div className="titles__wrapper">
-                                    <React.Fragment> {children}</React.Fragment>
+                                    <React.Fragment>{children}</React.Fragment>
                                 </div>
                             ),
                     }}
